@@ -4,6 +4,8 @@
 	padding: 10px;
 	margin: 0 auto;
 	position: relative;
+	background-color: @color-claro;
+	.sombra-caja;
 	&__imagen {
 		width: 1320px;
 		position: absolute;
@@ -24,8 +26,8 @@
 		color: @color-claro;
 	}
 	&__categoria {
-		font-family: @Fuente2;
-		text-transform: uppercase;
+		.oswald;
+		color: fade(@color-claro, 50%);
 	}
 	&__titulo {
 		font-family: @Fuente2;
@@ -49,6 +51,9 @@
 		}
 		span {
 			display: inline-block;
+		}
+		&-titulo {
+			color: fade(@color-claro, 50%);
 		}
 	}
 }
