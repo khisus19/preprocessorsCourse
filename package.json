@@ -1,0 +1,14 @@
+{
+  "name": "preprocessors-course-platzi",
+  "version": "1.0.0",
+  "description": "Less, Pug and Sass course from platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesús Álvarez <khisus19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
