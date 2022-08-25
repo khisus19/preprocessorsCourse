@@ -9,6 +9,7 @@
   "author": "Jesús Álvarez <khisus19@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "sass": "^1.54.5"
   }
 }
