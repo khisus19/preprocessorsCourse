@@ -1,0 +1,38 @@
+@use "globales" as *;
+
+.galeria {
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @include caja;
+
+  &__foto-principal {
+    float: left;
+    margin-right: 10px;
+  }
+  &__fotos-adicionales {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__fotos-adicionales img {
+    height: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    @include titulos($Fuente2);
+  }
+  img {
+    border-radius: 10px;
+  }
+}
