@@ -728,7 +728,7 @@ main {
   width: 1340px;
   height: 650px;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   position: relative;
   color: #333333;
   box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
@@ -760,6 +760,8 @@ main {
 }
 .intro__titulo {
   font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 4.6875rem;
 }
 .intro__autor {
   width: 150px;
